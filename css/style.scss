@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html, body, #wrap { height: 100%; }
-body > #wrap {height: auto; min-height: 100%;}
+body > #wrap {height: auto; min-height: 97%;}
 
 body {
 	font-family: 'Lekton', sans-serif;
@@ -164,7 +164,7 @@ h5 {
   text-indent:100%;
   overflow:hidden;
   white-space: nowrap;
-  background:url(../img/top.png);
+  background:#333333;
   border-radius:13px;
   border:1px solid rgba(0,0,0,0.4);
   box-shadow:
@@ -263,7 +263,7 @@ h5 {
 /* SWITCHED ON */
 
 #push.active {
-  background:url(../img/top-dark.png);
+  background:#222222;
   box-shadow:
     0 0 5px rgba(0,0,0,0.5),
   	inset 0 50px 50px rgba(55,55,55,0.1);
